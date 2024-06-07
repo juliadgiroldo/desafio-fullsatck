@@ -1,57 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
 <app-toolbar></app-toolbar>
+
 <body>
     <div id="home-text">
-        <p>O Projeto Eco tem como objetivo auxiliar as pessoas a incorporarem práticas sustentáveis em seu dia a dia por meio de desafios cotidianos. 
-            Ao oferecer uma série de desafios acessíveis e relevantes, buscamos inspirar a adoção de hábitos que promovam o cuidado com o meio ambiente.
-            Nossa missão é tornar a sustentabilidade parte integrante da rotina de cada indivíduo, 
-            contribuindo assim para um futuro mais consciente e equilibrado para o planeta.
+        <mat-card class="initial-card">
+            <mat-card-header>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="content-card">
+                    <div id="paragrafo"> <!-- Mantenha este id para o texto -->
+                        O Projeto Eco tem como objetivo auxiliar as pessoas a incorporarem práticas sustentáveis em seu
+                        dia a dia por meio de desafios cotidianos.
+                        Ao oferecer uma série de desafios acessíveis e relevantes, buscamos inspirar a adoção de hábitos
+                        que promovam o cuidado com o meio ambiente.
+                        Nossa missão é tornar a sustentabilidade parte integrante da rotina de cada indivíduo,
+                        contribuindo assim para um futuro mais consciente e equilibrado para o planeta.
+                        Além disso, nós também temos um banco de voluntários, onde o usuário pode se cadastrar e as
+                        empresas e ongs entraram em contato
+                    </div>
+                    <div class="img">
+                        <img class="img" src="/logo.png">
+                    </div>
+                </div>
+            </mat-card-content>
+            <mat-card-actions>
+            </mat-card-actions>
+        </mat-card>
 
-        Além disso, nós também temos um banco de voluntários, onde o usuário pode se cadastrar e as empresas e ongs entraram em contato</p>
-
-        <img >
     </div>
 
-    <h3 class="title">Desafios</h3>
+    <h3 class="title">DESAFIOS SUSTENTÁVEIS</h3>
 
-    <div class="cards">
-        <mat-card class="example-card">
-            <mat-card-header>
-                <mat-card-title>Desafio Petunia</mat-card-title>
-                <mat-card-subtitle>tempo: 7 dias</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-                <p>Este desafio é ideal para aqueles que já adotam práticas conscientes, mas que estão em busca de uma motivação extra.</p>
-            </mat-card-content>
-            <mat-card-actions>
-                <button mat-button>Quero este desafio!</button>
-            </mat-card-actions>
-        </mat-card>
-    
-        <mat-card class="example-card">
-            <mat-card-header>
-                <mat-card-title>Desafio Margarida</mat-card-title>
-                <mat-card-subtitle>tempo: 14 dias</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-                <p>Este desafio é  ideal para aqueles que já adotam algumas práticas conscientes, mas desejam aprimorar e expandir seus hábitos sustentáveis</p>
-            </mat-card-content>
-            <mat-card-actions>
-                <button mat-button>Quero este desafio!</button>
-            </mat-card-actions>
-        </mat-card>
-    
-        <mat-card class="example-card">
-            <mat-card-header>
-                <mat-card-title>Desafio Jasmim</mat-card-title>
-                <mat-card-subtitle>tempo: 30 dias</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-                <p>Este desafio é ideal para quem ainda não adotou hábitos conscientes, mas deseja começar a viver de maneira mais sustentável.</p>
-            </mat-card-content>
-            <mat-card-actions>
-                <button mat-button>Quero este desafio!</button>
-            </mat-card-actions>
-        </mat-card>
-    </div>
-    
+    <mat-card class="card">
+        <mat-card-content>
+            <div class="cards">
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <mat-card-title>Desafio Petunia</mat-card-title>
+                        <mat-card-subtitle>Tempo estimado: 7 dias</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>Este desafio é ideal para aqueles que já adotam práticas conscientes, mas que estão em busca
+                            de uma
+                            motivação extra.</p>
+                    </mat-card-content>
+                    <mat-card-actions>
+                        <button mat-button>Quero este desafio!</button>
+                    </mat-card-actions>
+                </mat-card>
+
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <mat-card-title>Desafio Margarida</mat-card-title>
+                        <mat-card-subtitle>Tempo estimado: 14 dias</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>Este desafio é ideal para aqueles que já adotam algumas práticas conscientes, mas desejam
+                            aprimorar e
+                            expandir seus hábitos sustentáveis</p>
+                    </mat-card-content>
+                    <mat-card-actions>
+                        <button mat-button>Quero este desafio!</button>
+                    </mat-card-actions>
+                </mat-card>
+
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <mat-card-title>Desafio Jasmim</mat-card-title>
+                        <mat-card-subtitle>Tempo estimado: 30 dias</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>Este desafio é ideal para quem ainda não adotou hábitos conscientes, mas deseja começar a
+                            viver de
+                            maneira mais sustentável.</p>
+                    </mat-card-content>
+                    <mat-card-actions>
+                        <button mat-button>Quero este desafio!</button>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
 </body>

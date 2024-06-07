@@ -3,5 +3,23 @@
 }
 
 .toolbar{
-  background-color: #89B39C;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+button{
+  background-color: white;
+  border: 0px;
+}
+
+span{
+  font-family: 'Fira Sans Condensed';
 }
