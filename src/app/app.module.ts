@@ -14,6 +14,8 @@ import { DesafioSeteDiasComponent } from './desafios/desafio-sete-dias/desafio-s
 import {MatButtonModule} from '@angular/material/button';
 import { DesafioCatorzeDiasComponent } from './desafios/desafio-catorze-dias/desafio-catorze-dias.component';
 import { DesafioTrintaDiasComponent } from './desafios/desafio-trinta-dias/desafio-trinta-dias.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { DesafioTrintaDiasComponent } from './desafios/desafio-trinta-dias/desaf
     MatIconModule,
     MatBottomSheetModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule,
+    MatSlideToggleModule
   ],
   providers: [
     provideAnimationsAsync('noop')
