@@ -1,11 +1,11 @@
 {
-  "desafio-sete-dias": [
+  "desafio-petunia": [
     {
       "id": "1",
       "position": 1,
       "dia": "Primeiro dia",
       "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
-      "status": true
+      "status": false
     },
     {
       "id": "2",
@@ -47,6 +47,318 @@
       "position": 7,
       "dia": "Sétimo dia",
       "atividade": "Consumo consciente: Compre de produtores locais e evite embalagens excessivas.",
+      "status": true
+    }
+  ],
+  "desafio-margarida": [
+    {
+      "id": "11",
+      "position": 1,
+      "dia": "Primeiro dia",
+      "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
+      "status": true
+    },
+    {
+      "id": "2",
+      "position": 2,
+      "dia": "Segundo dia",
+      "atividade": "Compostagem: Comece uma composteira com restos de alimentos.",
+      "status": true
+    },
+    {
+      "id": "3",
+      "position": 3,
+      "dia": "Terceiro dia",
+      "atividade": "Cultivo de plantas: Plante ervas e temperos em vasos.",
+      "status": false
+    },
+    {
+      "id": "4",
+      "position": 4,
+      "dia": "Quarto dia",
+      "atividade": "Redução de consumo de água: Instale arejadores nas torneiras.",
+      "status": false
+    },
+    {
+      "id": "5",
+      "position": 5,
+      "dia": "Quinto dia",
+      "atividade": "Produtos de limpeza naturais: Use produtos de limpeza 100% biodegradáveis.",
+      "status": false
+    },
+    {
+      "id": "5",
+      "position": 6,
+      "dia": "Sexto dia",
+      "atividade": "Economia de energia: Troque lâmpadas incandescentes por LEDs.",
+      "status": false
+    },
+    {
+      "id": "7",
+      "position": 7,
+      "dia": "Sétimo dia",
+      "atividade": "Consumo consciente: Compre de produtores locais e evite embalagens excessivas.",
+      "status": false
+    },
+    {
+      "id": "8",
+      "position": 8,
+      "dia": "Oitavo dia",
+      "atividade": "Uso de transporte sustentável: Opte por caminhar, andar de bicicleta ou usar transporte público.",
+      "status": false
+    },
+    {
+      "id": "9",
+      "position": 9,
+      "dia": "Nono dia",
+      "atividade": "Jardinagem vertical: Crie um jardim vertical em sua casa ou varanda.",
+      "status": false
+    },
+    {
+      "id": "10",
+      "position": 10,
+      "dia": "Décimo dia",
+      "atividade": "Compra consciente: Prefira produtos locais e orgânicos sempre que possível.",
+      "status": false
+    },
+    {
+      "id": "11",
+      "position": 11,
+      "dia": "Décimo primeiro dia",
+      "atividade": "Redução do uso de plástico: Substitua produtos descartáveis por alternativas reutilizáveis.",
+      "status": false
+    },
+    {
+      "id": "12",
+      "position": 12,
+      "dia": "Décimo segundo dia",
+      "atividade": "Educação ambiental: Compartilhe seu conhecimento sobre práticas sustentáveis com amigos e familiares.",
+      "status": false
+    },
+    {
+      "id": "13",
+      "position": 13,
+      "dia": "Décimo terceiro dia",
+      "atividade": "Reciclagem de eletrônicos: Recicle eletrônicos antigos de forma responsável.",
+      "status": false
+    },
+    {
+      "id": "14",
+      "position": 14,
+      "dia": "Décimo quarto dia",
+      "atividade": "Redução do uso de papel: Opte por documentos digitais sempre que possível.",
+      "status": false
+    }
+  ],
+  "desafio-jasmim": [
+    {
+      "id": "1",
+      "position": 1,
+      "dia": "Dia 1",
+      "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
+      "status": true
+    },
+    {
+      "id": "2",
+      "position": 2,
+      "dia": "Dia 2",
+      "atividade": "Compostagem: Comece uma composteira com restos de alimentos.",
+      "status": false
+    },
+    {
+      "id": "3",
+      "position": 3,
+      "dia": "Dia 3",
+      "atividade": "Cultivo de plantas: Plante ervas e temperos em vasos.",
+      "status": false
+    },
+    {
+      "id": "4",
+      "position": 4,
+      "dia": "Dia 4",
+      "atividade": "Redução de consumo de água: Instale arejadores nas torneiras.",
+      "status": false
+    },
+    {
+      "id": "5",
+      "position": 5,
+      "dia": "Dia 5",
+      "atividade": "Produtos de limpeza naturais: Use produtos de limpeza 100% biodegradáveis.",
+      "status": false
+    },
+    {
+      "id": "6",
+      "position": 6,
+      "dia": "Dia 6",
+      "atividade": "Economia de energia: Troque lâmpadas incandescentes por LEDs.",
+      "status": false
+    },
+    {
+      "id": "7",
+      "position": 7,
+      "dia": "Dia 7",
+      "atividade": "Consumo consciente: Compre de produtores locais e evite embalagens excessivas.",
+      "status": false
+    },
+    {
+      "id": "8",
+      "position": 8,
+      "dia": "Dia 8",
+      "atividade": "Uso de transporte sustentável: Opte por caminhar, andar de bicicleta ou usar transporte público.",
+      "status": false
+    },
+    {
+      "id": "9",
+      "position": 9,
+      "dia": "Dia 9",
+      "atividade": "Jardinagem vertical: Crie um jardim vertical em sua casa ou varanda.",
+      "status": false
+    },
+    {
+      "id": "10",
+      "position": 10,
+      "dia": "Dia 10",
+      "atividade": "Compra consciente: Prefira produtos locais e orgânicos sempre que possível.",
+      "status": false
+    },
+    {
+      "id": "11",
+      "position": 11,
+      "dia": "Dia 11",
+      "atividade": "Redução do uso de plástico: Substitua produtos descartáveis por alternativas reutilizáveis.",
+      "status": false
+    },
+    {
+      "id": "12",
+      "position": 12,
+      "dia": "Dia 12",
+      "atividade": "Educação ambiental: Compartilhe seu conhecimento sobre práticas sustentáveis com amigos e familiares.",
+      "status": false
+    },
+    {
+      "id": "13",
+      "position": 13,
+      "dia": "Dia 13",
+      "atividade": "Reciclagem de eletrônicos: Recicle eletrônicos antigos de forma responsável.",
+      "status": false
+    },
+    {
+      "id": "14",
+      "position": 14,
+      "dia": "Dia 14",
+      "atividade": "Redução do uso de papel: Opte por documentos digitais sempre que possível.",
+      "status": false
+    },
+    {
+      "id": "15",
+      "position": 15,
+      "dia": "Dia 15",
+      "atividade": "Reutilização de materiais: Transforme itens descartados em novos produtos úteis.",
+      "status": false
+    },
+    {
+      "id": "16",
+      "position": 16,
+      "dia": "Dia 16",
+      "atividade": "Economia de água no banho: Reduza o tempo do banho e instale uma cabeça de chuveiro de baixo fluxo.",
+      "status": false
+    },
+    {
+      "id": "17",
+      "position": 17,
+      "dia": "Dia 17",
+      "atividade": "Cozinha sustentável: Evite desperdício de alimentos e utilize sobras em novas receitas.",
+      "status": false
+    },
+    {
+      "id": "18",
+      "position": 18,
+      "dia": "Dia 18",
+      "atividade": "Mobiliário sustentável: Opte por móveis feitos de materiais sustentáveis, como bambu ou madeira certificada.",
+      "status": false
+    },
+    {
+      "id": "19",
+      "position": 19,
+      "dia": "Dia 19",
+      "atividade": "Redução do desperdício de energia: Desconecte aparelhos eletrônicos da tomada quando não estiverem em uso.",
+      "status": false
+    },
+    {
+      "id": "20",
+      "position": 20,
+      "dia": "Dia 20",
+      "atividade": "Utilização de energias renováveis: Considere a instalação de painéis solares ou turbinas eólicas.",
+      "status": false
+    },
+    {
+      "id": "21",
+      "position": 21,
+      "dia": "Dia 21",
+      "atividade": "Upcycling: Transforme itens descartados em novos produtos úteis, como móveis ou decoração.",
+      "status": false
+    },
+    {
+      "id": "22",
+      "position": 22,
+      "dia": "Dia 22",
+      "atividade": "Educação ambiental online: Compartilhe conteúdo sobre práticas sustentáveis nas redes sociais.",
+      "status": false
+    },
+    {
+      "id": "23",
+      "position": 23,
+      "dia": "Dia 23",
+      "atividade": "Redução do uso de embalagens: Opte por produtos a granel ou com embalagens biodegradáveis.",
+      "status": false
+    },
+    {
+      "id": "24",
+      "position": 24,
+      "dia": "Dia 24",
+      "atividade": "Compras sustentáveis: Priorize produtos duráveis e de baixo impacto ambiental.",
+      "status": false
+    },
+    {
+      "id": "25",
+      "position": 25,
+      "dia": "Dia 25",
+      "atividade": "Limpeza de áreas verdes: Participe de mutirões de limpeza em parques e praias.",
+      "status": false
+    },
+    {
+      "id": "26",
+      "position": 26,
+      "dia": "Dia 26",
+      "atividade": "Redução do consumo de carne: Experimente refeições vegetarianas ou veganas pelo menos uma vez por semana.",
+      "status": false
+    },
+    {
+      "id": "27",
+      "position": 27,
+      "dia": "Dia 27",
+      "atividade": "DIY de decoração sustentável: Faça você mesmo objetos de decoração usando materiais reciclados.",
+      "status": false
+    },
+    {
+      "id": "28",
+      "position": 28,
+      "dia": "Dia 28",
+      "atividade": "Redução do uso de ar condicionado: Utilize ventiladores e mantenha portas e janelas abertas para ventilação natural.",
+      "status": false
+    },
+    {
+      "id": "29",
+      "position": 29,
+      "dia": "Dia 29",
+      "atividade": "Doação de roupas e objetos: Doe itens que não utiliza mais para instituições de caridade ou brechós.",
+      "status": false
+    },
+    {
+      "id": "30",
+      "position": 30,
+      "dia": "Dia 30",
+      "atividade": "Apoio a iniciativas sustentáveis: Participe de eventos e projetos com foco na preservação do meio ambiente.",
       "status": false
     }
   ]

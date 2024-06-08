@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DesafioPetuniaService {
 
-  api = 'http://localhost:3000/desafio-sete-dias'
+  api = 'http://localhost:3000/desafio-petunia'
 
   constructor(private http: HttpClient){}
 
