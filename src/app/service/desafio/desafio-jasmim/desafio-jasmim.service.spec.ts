@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DesafioService } from './desafio.service';
+import { DesafioJasmimService } from './desafio-jasmim.service';
 
-describe('DesafioService', () => {
-  let service: DesafioService;
+describe('DesafioJasmimService', () => {
+  let service: DesafioJasmimService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DesafioService);
+    service = TestBed.inject(DesafioJasmimService);
   });
 
   it('should be created', () => {

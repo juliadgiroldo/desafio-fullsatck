@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DesafioService } from '../services/api/desafio.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,7 +9,6 @@ import { Router } from '@angular/router';
 export class HomeComponent {
 
   constructor(
-    private _apiDesafioService: DesafioService,
     private router: Router
   ){}
 

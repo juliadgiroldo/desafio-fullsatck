@@ -1,0 +1,53 @@
+{
+  "desafio-sete-dias": [
+    {
+      "id": "1",
+      "position": 1,
+      "dia": "Primeiro dia",
+      "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
+      "status": true
+    },
+    {
+      "id": "2",
+      "position": 2,
+      "dia": "Segundo dia",
+      "atividade": "Compostagem: Comece uma composteira com restos de alimentos.",
+      "status": false
+    },
+    {
+      "id": "3",
+      "position": 3,
+      "dia": "Terceiro dia",
+      "atividade": "Cultivo de plantas: Plante ervas e temperos em vasos.",
+      "status": false
+    },
+    {
+      "id": "4",
+      "position": 4,
+      "dia": "Quarto dia",
+      "atividade": "Redução de consumo de água: Instale arejadores nas torneiras.",
+      "status": false
+    },
+    {
+      "id": "5",
+      "position": 5,
+      "dia": "Quinto dia",
+      "atividade": "Produtos de limpeza naturais: Use produtos de limpeza 100% biodegradáveis.",
+      "status": false
+    },
+    {
+      "id": "6",
+      "position": 6,
+      "dia": "Sexto dia",
+      "atividade": "Economia de energia: Troque lâmpadas incandescentes por LEDs.",
+      "status": false
+    },
+    {
+      "id": "7",
+      "position": 7,
+      "dia": "Sétimo dia",
+      "atividade": "Consumo consciente: Compre de produtores locais e evite embalagens excessivas.",
+      "status": false
+    }
+  ]
+}

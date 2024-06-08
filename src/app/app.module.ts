@@ -16,6 +16,7 @@ import { DesafioCatorzeDiasComponent } from './desafios/desafio-catorze-dias/des
 import { DesafioTrintaDiasComponent } from './desafios/desafio-trinta-dias/desafio-trinta-dias.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { HttpClient, provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,9 +36,11 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     MatCardModule,
     MatButtonModule,
     MatTableModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    
   ],
   providers: [
+    provideHttpClient(),
     provideAnimationsAsync('noop')
   ],
   bootstrap: [AppComponent]
