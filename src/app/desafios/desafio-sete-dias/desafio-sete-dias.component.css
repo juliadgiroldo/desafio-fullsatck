@@ -1,25 +1,25 @@
-.content{
+.content {
     background-color: #89B39C;
     width: 100%;
-    height: 100%;
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
 }
 
-.card-table{
-    margin: 20px;
+.card-table {
     background-color: white;
-    height: auto;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow: auto;
 }
 
-.mat-elevation-z8{
-    background-color: white;
+.mat-elevation-z8 {
+    background-color: transparent;
 }
 
-h3{
-    color:  #52896A;
+h3 {
+    color: #52896A;
     text-align: center;
     font-family: 'Fira Sans Condensed';
     margin-top: 15px;

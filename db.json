@@ -5,7 +5,7 @@
       "position": 1,
       "dia": "Primeiro dia",
       "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
-      "status": false
+      "status": true
     },
     {
       "id": "2",
