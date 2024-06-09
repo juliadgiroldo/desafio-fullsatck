@@ -5,11 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .card-table{
     margin: 20px;
     background-color: white;
+    height: auto;
 }
 
 .mat-elevation-z8{
