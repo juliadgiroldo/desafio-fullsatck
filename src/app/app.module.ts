@@ -17,6 +17,10 @@ import { DesafioTrintaDiasComponent } from './desafios/desafio-trinta-dias/desaf
 import {MatTableModule} from '@angular/material/table';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { HttpClient, provideHttpClient } from '@angular/common/http';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,9 @@ import { HttpClient, provideHttpClient } from '@angular/common/http';
     ToolbarComponent,
     DesafioSeteDiasComponent,
     DesafioCatorzeDiasComponent,
-    DesafioTrintaDiasComponent
+    DesafioTrintaDiasComponent,
+    SidenavComponent,
+    TelaInicialComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +43,8 @@ import { HttpClient, provideHttpClient } from '@angular/common/http';
     MatButtonModule,
     MatTableModule,
     MatSlideToggleModule,
-    
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [
     provideHttpClient(),

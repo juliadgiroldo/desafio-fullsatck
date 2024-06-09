@@ -13,14 +13,16 @@ export class HomeComponent {
   ){}
 
   desafioSeteDias(){
-    this.router.navigate(['/desafio-sete-dias']);
+    this.router.navigate(['/desafio-petunia']);
   }
 
   desafioCatorzeDias(){
-    this.router.navigate(['/desafio-catorze-dias']);
+    this.router.navigate(['/desafio-margarida']);
   }
 
   desafioTrintaDias(){
-    this.router.navigate(['/desafio-trinta-dias']);
+    this.router.navigate(['/desafio-jasmim']);
   }
+
+
 }

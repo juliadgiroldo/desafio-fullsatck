@@ -47,7 +47,7 @@
       "position": 7,
       "dia": "Sétimo dia",
       "atividade": "Consumo consciente: Compre de produtores locais e evite embalagens excessivas.",
-      "status": true
+      "status": false
     }
   ],
   "desafio-margarida": [
@@ -56,14 +56,14 @@
       "position": 1,
       "dia": "Primeiro dia",
       "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
-      "status": true
+      "status": false
     },
     {
       "id": "2",
       "position": 2,
       "dia": "Segundo dia",
       "atividade": "Compostagem: Comece uma composteira com restos de alimentos.",
-      "status": true
+      "status": false
     },
     {
       "id": "3",
@@ -156,7 +156,7 @@
       "position": 1,
       "dia": "Dia 1",
       "atividade": "Reciclagem: Separe o lixo reciclável e ao final do dia entregue à coleta seletiva.",
-      "status": true
+      "status": false
     },
     {
       "id": "2",

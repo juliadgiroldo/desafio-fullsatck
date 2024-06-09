@@ -1,5 +1,6 @@
 #home-text {
     background-color: #295E41;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -48,6 +49,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow-y: auto;
 }
 
 .desafio-page::before {
@@ -92,8 +94,8 @@
 button {
     background-color: white;
     border-color: #295E41;
+    border-width: 3px;
     border-radius: 10px;
-    border-width: 1px;
     height: 25px;
     color: #0E341F;
 }

@@ -1,0 +1,13 @@
+<mat-drawer-container autosize class="example-container">
+  <mat-drawer #drawer [(opened)]="sideNavOpened" mode="side" position="start">
+    <mat-nav-list>
+      <span><a class="nav-list" mat-list-item href="#home-text">Home</a></span>
+    </mat-nav-list>
+    <mat-nav-list>
+      <span ><a class="nav-list" mat-list-item href="#desafio">Desafios Sustentáveis</a></span>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
