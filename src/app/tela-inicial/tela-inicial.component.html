@@ -1,3 +1,16 @@
-<app-toolbar
-(toggleSideNav)="onToggle()"></app-toolbar>
-<app-sidenav [sideNavOpened]="sideNavOpened"></app-sidenav>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <app-toolbar (toggleSideNav)="onToggle()"></app-toolbar>
+    <app-sidenav [sideNavOpened]="sideNavOpened"></app-sidenav>
+    <app-footerbar></app-footerbar>
+</body>
+
+</html>

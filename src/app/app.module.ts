@@ -21,6 +21,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { MatListModule } from '@angular/material/list';
+import { FooterbarComponent } from './components/footerbar/footerbar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MatListModule } from '@angular/material/list';
     DesafioCatorzeDiasComponent,
     DesafioTrintaDiasComponent,
     SidenavComponent,
-    TelaInicialComponent
+    TelaInicialComponent,
+    FooterbarComponent
   ],
   imports: [
     BrowserModule,

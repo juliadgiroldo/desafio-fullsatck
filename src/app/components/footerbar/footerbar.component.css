@@ -1,0 +1,12 @@
+span {
+    font-family: 'Fira Sans Condensed';
+    font-size: smaller;
+    color: #0E341F;
+}
+
+mat-toolbar{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
