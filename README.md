@@ -71,4 +71,4 @@ e inicie o servidor angular
 ```bash
   ng serve
 ```
-acesse o link para utilizar o projeto na WEB (http://localhost:4200/)
+acesse o link para acessar o projeto na WEB: http://localhost:4200/
