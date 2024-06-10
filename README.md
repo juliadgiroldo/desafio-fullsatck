@@ -59,8 +59,16 @@ Inicie o servidor json
   json-server --watch db.json
 ```
 
-Inicie o servidor angular
+Em uma nova aba do terminal,
+
+Entre no diretório do projeto
+
+```bash
+  cd desafio-fullsatck
+```
+e inicie o servidor angular
 
 ```bash
   ng serve
 ```
+acesse o link para utilizar o projeto na WEB (http://localhost:4200/)
