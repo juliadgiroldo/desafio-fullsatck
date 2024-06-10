@@ -1,12 +1,22 @@
 # Projeto Eco
 
-Este projeto foi desenvolvido com a finalidade de ajudar as pessoas a desenvolverem hábitos sustentáveis ou permanecerem com eles. São propostos 3 desafios com públicos alvo diferentes. 
+Este projeto foi desenvolvido com a finalidade de ajudar as pessoas a desenvolverem hábitos sustentáveis ou permanecerem com eles. São propostos 3 desafios com públicos alvo diferentes.
+
+## Uso do projeto
+
+O projeto conta com uma página que contém a logo do projeto e uma explicação detalhada sobre o mesmo. Logo após possui os 3 desafios: Desafio Petúnia, que para as pessoas que já possuem hábitos sustentáveis, Desafio Margarida, é para as pessoas que possuem hábitos sustentáveis, mas querem expandi-los e o Desafio Jasmim, que possue a finalidade de ajudar as pessoas que não possuem nenhum hábito sustentável a desenvolvê-los.
+
+Ao escolher um dos desafios, o usuário será direcionado a página do desafio selecionado. Na página do desafio, o usuário encontrará as atividades diárias a serem feitas, após finalizá-las ele deverá marcar a atividade como concluída.
+
+Para voltar a página inicial, o usuário poderá utilizar a barra de navegação clicando no botão de menu na header ou clicando no nome do projeto ou logo também na header. O usuário também pode utilizar a barra de naveção para ser redirecionado aos desafios.
 
 ## Stack utilizada
 
 **Front-end:** Angular 18, Angular Material, CSS.
 
 **Servidor:** json-server
+
+Foi-se utilizado json-server para simular o consumo de uma API.
 
 
 ## Instalação do json-server e angular 
@@ -54,11 +64,3 @@ Inicie o servidor angular
 ```bash
   ng serve
 ```
-
-## Uso do projeto
-
-O projeto conta com uma página que contém a logo do projeto e uma explicação detalhada sobre o mesmo. Logo após possui os 3 desafios: Desafio Petúnia, que para as pessoas que já possuem hábitos sustentáveis, Desafio Margarida, é para as pessoas que possuem hábitos sustentáveis, mas querem expandi-los e o Desafio Jasmim, que possue a finalidade de ajudar as pessoas que não possuem nenhum hábito sustentável a desenvolvê-los.
-
-Ao escolher um dos desafios, o usuário será direcionado a página do desafio selecionado. Na página do desafio, o usuário encontrará as atividades diárias a serem feitas, após finalizá-las ele deverá marcar a atividade como concluída.
-
-Para voltar a página inicial, o usuário poderá utilizar a barra de navegação clicando no botão de menu na header ou clicando no nome do projeto ou logo também na header. O usuário também pode utilizar a barra de naveção para ser redirecionado aos desafios.
