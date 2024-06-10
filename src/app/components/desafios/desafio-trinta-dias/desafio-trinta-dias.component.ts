@@ -1,18 +1,15 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, inject } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-import { DesafioPetuniaService } from '../../service/desafio/desafio-petunia/desafio-petunia.service';
-import { inject } from '@angular/core';
+import { DesafioJasmimService } from '../../../service/desafio/desafio-jasmim/desafio-jasmim.service';
 
 @Component({
-  selector: 'app-desafio-sete-dias',
-  templateUrl: './desafio-sete-dias.component.html',
-  styleUrl: './desafio-sete-dias.component.css'
+  selector: 'app-desafio-trinta-dias',
+  templateUrl: './desafio-trinta-dias.component.html',
+  styleUrl: './desafio-trinta-dias.component.css'
 })
-
-
-export class DesafioSeteDiasComponent {
-
-  #apiService = inject(DesafioPetuniaService)
+export class DesafioTrintaDiasComponent {
+  #apiService = inject(DesafioJasmimService)
   displayedColumns: string[] = ['position', 'dia', 'atividade', 'action'];
   dataSource!: MatTableDataSource<any>;
 

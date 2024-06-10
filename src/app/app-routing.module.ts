@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { DesafioSeteDiasComponent } from './desafios/desafio-sete-dias/desafio-sete-dias.component';
-import { DesafioCatorzeDiasComponent } from './desafios/desafio-catorze-dias/desafio-catorze-dias.component';
-import { DesafioTrintaDiasComponent } from './desafios/desafio-trinta-dias/desafio-trinta-dias.component';
-import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { DesafioCatorzeDiasComponent } from './components/desafios/desafio-catorze-dias/desafio-catorze-dias.component';
+import { DesafioSeteDiasComponent } from './components/desafios/desafio-sete-dias/desafio-sete-dias.component';
+import { DesafioTrintaDiasComponent } from './components/desafios/desafio-trinta-dias/desafio-trinta-dias.component';
+import { HomeComponent } from './components/home/home.component';
+import { TelaInicialComponent } from './components/tela-inicial/tela-inicial.component';
+
 
 const routes: Routes = [
   {

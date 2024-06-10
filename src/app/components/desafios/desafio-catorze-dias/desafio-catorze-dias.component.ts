@@ -1,16 +1,17 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-import { Observable } from 'rxjs';
-import { DesafioJasmimService } from '../../service/desafio/desafio-jasmim/desafio-jasmim.service';
+
+import { inject } from '@angular/core';
+import { DesafioMargaridaService } from '../../../service/desafio/desafio-margarida/desafio-margarida.service';
+
 
 @Component({
-  selector: 'app-desafio-trinta-dias',
-  templateUrl: './desafio-trinta-dias.component.html',
-  styleUrl: './desafio-trinta-dias.component.css'
+  selector: 'app-desafio-catorze-dias',
+  templateUrl: './desafio-catorze-dias.component.html',
+  styleUrl: './desafio-catorze-dias.component.css'
 })
-export class DesafioTrintaDiasComponent {
-  #apiService = inject(DesafioJasmimService)
+export class DesafioCatorzeDiasComponent {
+  #apiService = inject(DesafioMargaridaService)
   displayedColumns: string[] = ['position', 'dia', 'atividade', 'action'];
   dataSource!: MatTableDataSource<any>;
 
