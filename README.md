@@ -1,27 +1,57 @@
-# EcoApp
+# Projeto Eco
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Este projeto foi desenvolvido com a finalidade de ajudar as pessoas a desenvolverem hábitos sustentáveis ou permanecerem com eles. São propostos 3 desafios com públicos alvo diferentes. 
 
-## Development server
+## Stack utilizada
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Front-end:** Angular 18, Angular Material, CSS.
 
-## Code scaffolding
+**Servidor** json-server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+##Instalação do json-server e angular 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular 
 
-## Running unit tests
+```bash
+  npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Json-server
 
-## Running end-to-end tests
+```bash
+  npm i json-server
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Rodando localmente
 
-## Further help
+Clone o projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+  git clone https://github.com/juliadgiroldo/desafio-fullsatck.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd desafio-fullsatck
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor json
+
+```bash
+  json-server --watch db.json
+```
+
+Inicie o servidor angular
+
+```bash
+  ng serve
+```
+
