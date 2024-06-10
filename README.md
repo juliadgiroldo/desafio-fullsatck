@@ -6,10 +6,10 @@ Este projeto foi desenvolvido com a finalidade de ajudar as pessoas a desenvolve
 
 **Front-end:** Angular 18, Angular Material, CSS.
 
-**Servidor** json-server
+**Servidor:** json-server
 
 
-##Instalação do json-server e angular 
+## Instalação do json-server e angular 
 
 Angular 
 
